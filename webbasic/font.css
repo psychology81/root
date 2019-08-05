@@ -1,0 +1,77 @@
+
+        * {
+            margin : 0px;
+            padding : 0px;
+            /* 맨위에 메뉴에 공백없이*/
+        }
+
+        body {
+            background: #EDCDAF;
+            font-family: "MOD20.TTF", NanumMyeongjoBold, 나눔명조, 돋움;  
+           /* background-image: url('D:/webbasic/img/mintpaint.jpg');*/
+            background-repeat: repeat-x;
+            
+            background-attachment: fixed; /*아주 많이 참고하기 */
+        }
+
+        .color1 {
+            color: #3D3D3D;
+            padding: 10px;
+        
+        }
+        
+
+
+        .text1 {
+            align-content: center;
+            color:#7A7774;
+            text-align: center;
+
+        }
+
+        #menubox{
+            background-color:white;
+            width : 100%;
+            height: 100px;
+            background-clip: padding-box;
+            padding: 20PX;
+            background-origin: border-box;
+            font-weight: 900;
+            
+        
+        }
+
+        #gradbox{
+            background: repeating-linear-gradient(white, white 5px, #E5E5E5 5px, white 10px);
+           /* background: radial-gradient(circle, white , #E5E5E5 50%, #E5E5E5); */
+            width: 100%;
+            height: 50px;
+            padding: 20px;
+            text-align: center;
+            letter-spacing: 0.5em;
+            
+    
+        }
+
+        #block img {
+            display: block;
+            margin: 10px;
+        }
+
+        #inline ul li {
+            display: inline;
+
+        }
+
+        #menubox ul li {
+            display : inline;
+            margin: 40px;
+        }
+
+        .menu {
+            font-size: 40px;
+        }
+
+
+        
+
